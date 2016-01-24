@@ -60,6 +60,10 @@ void ImageView::setInteractive( bool interactive )
     }
 }
 
+/**
+ * Called when move mouse out of main panel onto a menu or something while not pressing any mouse buttons. Seems to get called only by fractalpresenter, presumably to disable the fractalpresenter.
+ * Not sure why m_image, m_updatedRegion are both set to 0 by 0.
+ */
 void ImageView::clearView()
 {
     m_image = QImage();
