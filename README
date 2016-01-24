@@ -1,3 +1,15 @@
+This is an extension of Fraqtive for the IHS Fractals and Chaos class.
+The goals are:
+1. Show orbits in Julia Sets
+2. Mark where Julia sets occur in the Mandelbrot fractal
+3. Fully comment and document this code to make extension easier in the future.
+
+Note: You will need to run the ./configure on your own system to build.
+
+
+--------------------------------------------------------------------
+Original README below:
+--------------------------------------------------------------------
 Fraqtive
 Version 0.4.8 (2015-01-29)
 
