@@ -1,0 +1,8 @@
+*.swp
+*.swo
+Makefile
+config.pri
+src/Makefile
+release/*
+tmp/*
+debug/*
